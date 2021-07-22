@@ -1,2 +1,2 @@
-# rust-reminder
-A reminder app build in rust
+# executer
+A executer app built in rust
