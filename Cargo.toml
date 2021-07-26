@@ -6,6 +6,7 @@ edition = "2018"
 description = "A tiny rust package that lets you run your file on the date/time and with command that you have specified"
 readme = "README.md"
 license = "MIT"
+repository = "https://github.com/hosseind88/ontime-executer"
 
 [dependencies]
 clap = "2.33.3"
