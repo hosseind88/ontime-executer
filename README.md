@@ -19,7 +19,7 @@ OPTIONS:
         --datetime <datetime>                Sets the date/time that should run this program, please set it in this
                                              format dd-mm-yyyy hh:mm:ss
     -f, --file-path <file-path>              Sets the path of file that should be executed, e.g ./script.sh
-    -r, --runner-command <runner-command>    Sets the runner command that should run program with, e.g sh, node
+    -r, --runner-command <runner-command>    Sets the runner command that should run program with, now it just supports sh and node
 
 ```
   
