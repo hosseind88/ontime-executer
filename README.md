@@ -22,4 +22,16 @@ OPTIONS:
     -r, --runner-command <runner-command>    Sets the runner command that should run program with, now it just supports sh and node
 
 ```
-  
+## Installation
+
+Via cargo
+
+```
+cargo install ontimeexecuter
+``` 
+
+## Example
+
+```
+ontimeexecuter --datetime "26-07-2021 20:44:45"  --file-path ./script.js --runner-command node
+```  
