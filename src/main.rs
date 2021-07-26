@@ -1,7 +1,7 @@
 use clap::{crate_description, crate_version, App, Arg};
 use std::path::Path;
 use futures::executor::block_on;
-use executer::{command_from_string, datetime::DateTime, runner::Runner};
+use ontimeexecuter::{command_from_string, datetime::DateTime, runner::Runner};
 
 fn main() {
     let matches = App::new("executer")
