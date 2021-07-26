@@ -1,4 +1,4 @@
-use clap::{crate_description, crate_version, App, Arg};
+use clap::{App, Arg, crate_authors, crate_description, crate_version};
 use std::path::Path;
 use futures::executor::block_on;
 use ontimeexecuter::{command_from_string, datetime::DateTime, runner::Runner};
@@ -6,7 +6,7 @@ use ontimeexecuter::{command_from_string, datetime::DateTime, runner::Runner};
 fn main() {
     let matches = App::new("executer")
         .version(crate_version!())
-        .author("Hossein Dindar <hosseind2017@gmail.com>")
+        .author(crate_authors!())
         .about(crate_description!())
         .arg(
             Arg::with_name("file-path")

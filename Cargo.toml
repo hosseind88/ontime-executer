@@ -1,10 +1,11 @@
 [package]
 name = "ontimeexecuter"
 version = "0.1.0"
+authors = ["Hossein Dindar <hosseind2017@gmail.com>"]
 edition = "2018"
 description = "A tiny rust package that lets you run your file on the date/time and with command that you have specified"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+readme = "README.md"
+license = "MIT"
 
 [dependencies]
 clap = "2.33.3"
